@@ -14,8 +14,9 @@ const AppContainer = styled.div`
 function App() {
   return (
     <AppContainer>
+
       <AccountBox />
-      <h6>Designed by Rasta Riri :version 1.0</h6>
+      <h6>Family App by Morkelinho: version 0.2</h6>
     </AppContainer>
   );
 

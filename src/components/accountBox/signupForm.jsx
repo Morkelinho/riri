@@ -6,11 +6,20 @@ import {
     Input,
     MutedLink,
     SubmitButton,
-} from "./common";
+} from "../Pages/common";
+
+
+
 import { Marginer } from "../marginer";
 import { AccountContext } from "./accountContext";
 
+
+
+
+
+
 export function SignupForm(props) {
+    
     const { switchToSignin } = useContext(AccountContext);
 
     return (
